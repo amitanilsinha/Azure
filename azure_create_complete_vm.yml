@@ -1,7 +1,5 @@
 - name: Create VM
-  hosts: localhost
-  connection: local
-  gather_facts: False
+  hosts: all
   
   tasks:
   - name: Create resource group
